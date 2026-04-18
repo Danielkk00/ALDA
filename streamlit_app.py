@@ -105,7 +105,7 @@ st.markdown("""
 
 # 側邊欄
 with st.sidebar:
-    st.markdown("<h1 style='text-align: center;'>☄️ ALDA</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'>ALDA</h1>", unsafe_allow_html=True)
     selected_lang_name = st.selectbox("Language Selection", list(LANG_MAP.keys()), label_visibility="collapsed")
     lang_key = LANG_MAP[selected_lang_name]
     l = LANG_DICT[lang_key]
